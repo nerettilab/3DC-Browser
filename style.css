@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+}
+
+/*TODO: somehow make canvases side by side */
+canvas {
+    float:left;
+    border-style: solid;
+    border-width: thin;
+    margin:0;
+    padding:0;
+}
+
+div {
+    line-height: 2;
+}
+
+.colormap {
+    float: none;
+    margin: 0.1em;
+    padding: 0.1em;
+}
+
+/* floating at the top...*/
+.float-top-group {
+	position: absolute;
+	float: top;
+    margin: 0.5em;
+}
+
+/* A bunch of things surrounded by a border */
+.button-group {
+	border-style: solid;
+    border-width: thin;
+    border-radius: 10px;
+    background-color: rgba(210, 210, 210, 0.8);
+    color: #000;
+    padding: 0.5em;
+    margin: 0.5em; 
+}
+
+.right-group {
+    float: right;
+    position: absolute;
+    right: 0;
+    background-color: #dcdcdc;
+    padding: 0.5em;
+    margin: 0.5em; 
+}
+
+
+.bottom-group {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    float: bottom;
+    padding: 0.5em;
+    margin: 0.5em; 
+}
